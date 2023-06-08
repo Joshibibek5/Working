@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORM  </title>
+</head>
+<body>
+	<h1 style="text-align:center;">FORM SUBMISSION</h1>
+	<form action="submitted.html" method="get" >
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required ><br>
+		Password: <input type="password" name="password" minlength="5"required><br>
+		DOB: <input type="date" name="birthday"><br>
+		Gender:<br>
+		<input type="radio"  name="Gender" value="male"> male <br>
+		<input type="radio"  name="Gender" value="female"> female <br>
+		Choose a car:
+		<select name="car">
+			<option name='car' value="audi" > Audi <br>
+			<option name='car' value="Lambo"> Lambo <br>
+		</select><br>
+
+		<textarea name="area" rows="5" cols="40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		</textarea>
+		<br>
+
+		<input type="submit" value="SUBMIT">
+		<input type="reset" value="RESET"><br>
+	</form>
+	<p> click here to go to <a href="index.html"> Homepage </a> </p>
+</body>
+</html>
+
